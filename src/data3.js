@@ -7,9 +7,11 @@ export const saudiData =
         "type": "Feature",
         "id": "01",
         "properties": {
-          
-          "name": "Riyadh",
-          "name_arabic": "الرياض"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0631\u064a\u0627\u0636",
+          "count": "23",
+          "name_arabic": "الرياض",
+          "slug": "mntk-alryad"
         },
         "geometry": {
           "type": "Polygon",
@@ -145,11 +147,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "02",
+        "id": "04",
         "properties": {
-          
-          "name": "EASTERN PROVINCE",
-          "name_arabic": "المنطقة الشرقية"
+
+          "name": "\u0627\u0644\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0634\u0631\u0642\u064a\u0629",
+          "name_arabic": "المنطقة الشرقية",
+          "slug": "almntk-alshrky",
+          "count": "17"
         },
         "geometry": {
           "type": "Polygon",
@@ -277,11 +281,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "03",
+        "id": "05",
         "properties": {
-          
-          "name": "NORTHERN BORDERS",
-          "name_arabic": "الحدود الشمالية"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u062d\u062f\u0648\u062f \u0627\u0644\u0634\u0645\u0627\u0644\u064a\u0629",
+          "name_arabic": "الحدود الشمالية",
+          "slug": "mntk-alhdod-alshmaly",
+          "count": "4"
         },
         "geometry": {
           "type": "Polygon",
@@ -385,11 +391,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "04",
+        "id": "07",
         "properties": {
-         
-          "name": "AL JOUF",
-          "name_arabic": "الجوف"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u062c\u0648\u0641",
+          "name_arabic": "الجوف",
+          "slug": "mntk-algof",
+          "count": "0"
         },
         "geometry": {
           "type": "Polygon",
@@ -497,11 +505,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "05",
+        "id": "11",
         "properties": {
-          
-          "name": "HAIL",
-          "name_arabic": "حائل"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u062d\u0627\u0626\u0644",
+          "name_arabic": "حائل",
+          "slug": "mntk-hayl",
+            "count": "0"
         },
         "geometry": {
           "type": "Polygon",
@@ -609,11 +619,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "06",
+        "id": "08",
         "properties": {
-         
-          "name": "AL QASSEM",
-          "name_arabic": "القصيم"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0642\u0635\u064a\u0645",
+          "name_arabic": "القصيم",
+          "slug": "mntk-alksym",
+            "count": "8"
         },
         "geometry": {
           "type": "Polygon",
@@ -701,11 +713,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "07",
+        "id": "09",
         "properties": {
-          
-          "name": "TABUK",
-          "name_arabic": "تبوك"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u062a\u0628\u0648\u0643",
+          "name_arabic": "تبوك",
+          "slug": "mntk-tbok",
+          "count": "2"
         },
         "geometry": {
           "type": "Polygon",
@@ -913,11 +927,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "08",
+        "id": "03",
         "properties": {
-         
-          "name": "AL MADINAH AL MUNAWWARAH",
-          "name_arabic": "المدينة المنورة"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0645\u062f\u064a\u0646\u0629 \u0627\u0644\u0645\u0646\u0648\u0631\u0629",
+          "name_arabic": "المدينة المنورة",
+          "slug": "mntk-almdyn-almnor",
+          "count": "9"
         },
         "geometry": {
           "type": "Polygon",
@@ -1141,11 +1157,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "09",
+        "id": "06",
         "properties": {
-          
-          "name": "AL BAHA",
-          "name_arabic": "الباحة"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0628\u0627\u062d\u0629",
+          "name_arabic": "الباحة",
+          "slug": "mntk-albah",
+          "count": "3"
         },
         "geometry": {
           "type": "Polygon",
@@ -1253,11 +1271,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "10",
+        "id": "13",
         "properties": {
-         
-          "name": "NAJRAN",
-          "name_arabic": "نجران "
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0646\u062c\u0631\u0627\u0646",
+          "name_arabic": "نجران ",
+          "slug": "mntk-ngran",
+          "count": "1"
         },
         "geometry": {
           "type": "Polygon",
@@ -1361,11 +1381,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "11",
+        "id": "2",
         "properties": {
-         
-          "name": "MAKKAH AL MUKARRAMAH",
-          "name_arabic": "مكة المكرمة"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0645\u0643\u0629 \u0627\u0644\u0645\u0643\u0631\u0645\u0629",
+          "name_arabic": "مكة المكرمة",
+          "slug": "mntk-mk-almkrm",
+            "count": "54"
         },
         "geometry": {
           "type": "Polygon",
@@ -1683,9 +1705,11 @@ export const saudiData =
         "type": "Feature",
         "id": "12",
         "properties": {
-        
-          "name": "ASEER",
-          "name_arabic": "عسير"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u0639\u0633\u064a\u0631",
+          "name_arabic": "عسير",
+          "slug": "mntk-aasyr",
+            "count": "4"
         },
         "geometry": {
           "type": "Polygon",
@@ -1857,11 +1881,13 @@ export const saudiData =
       },
       {
         "type": "Feature",
-        "id": "13",
+        "id": "10",
         "properties": {
-         
-          "name": "JIZAN",
-          "name_arabic": "جازان"
+
+          "name": "\u0645\u0646\u0637\u0642\u0629 \u062c\u0627\u0632\u0627\u0646",
+          "name_arabic": "جازان",
+          "slug": "mntk-gazan",
+            "count": "7"
         },
         "geometry": {
           "type": "Polygon",

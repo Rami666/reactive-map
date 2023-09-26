@@ -3,17 +3,20 @@ import { MapContainer, TileLayer, Polygon, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { saudiData } from "./data3";
 import "./App.css";
+import CustomMap from "./CustomMap";
+
 
 const center = [23.713547526455798, 44.85715900050768];
 
 const App = () => {
   return (
     <div className="container">
-      <h1>التوزيع الجغرافي للمشاركين في تقييم القدرات المؤسسية داخل المملكة</h1>
-      <MapContainer
+      <CustomMap />
+
+      {/* <MapContainer
         center={center}
         zoom={5.4}
-        style={{ height: "70vh", width: "70vw" }}
+        style={{ height: "70vh", width: "99vw" }}
         scrollWheelZoom={false}
         touchZoom={false}
         doubleClickZoom={false}
@@ -31,6 +34,7 @@ const App = () => {
             item[0],
           ]);
           return (
+
             <Polygon
               pathOptions={{
                 fillColor: "#FD8D3C",
@@ -79,8 +83,11 @@ const App = () => {
             />
           );
         })}
-      </MapContainer>
-    </div>
+      </MapContainer> */}
+      
+
+      </div>
+  
   );
 };
 

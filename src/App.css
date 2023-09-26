@@ -1,10 +1,25 @@
 .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  position: sticky; /* Set a positioning context */
+  }
+
+  .inside-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    border: 2px solid black;
+    width: 20px;
+    position: relative;
+    z-index: 1; 
   }
+
   h1{
     font-size: 2rem;
     padding-bottom: 4rem;
@@ -20,10 +35,3 @@
   .popup{
     color: aqua;
   }
-  
-  
-  
-  
-  
-
-  
